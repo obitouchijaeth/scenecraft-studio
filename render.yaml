@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: scenecraft-studio
+    runtime: static
+    buildCommand: echo "SCENECRAFT static site ready"
+    staticPublishPath: .
+    autoDeployTrigger: commit
