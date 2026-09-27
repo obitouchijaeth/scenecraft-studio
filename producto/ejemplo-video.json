@@ -1,0 +1,13 @@
+{
+  "title": "Cómo convierto una idea en un video",
+  "goal": "Conseguir guardados",
+  "format": "Demostración",
+  "scenes": [
+    {"text": "Resultado final en pantalla", "seconds": 2},
+    {"text": "La idea escrita en una nota", "seconds": 3},
+    {"text": "Separar hook, prueba y cierre", "seconds": 5},
+    {"text": "Ordenar planos en SCENECRAFT", "seconds": 5},
+    {"text": "Mostrar la hoja de rodaje", "seconds": 4},
+    {"text": "CTA: guarda el método", "seconds": 3}
+  ]
+}
