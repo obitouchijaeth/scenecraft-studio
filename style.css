@@ -3,3 +3,5 @@
 
 .offer{display:grid;grid-template-columns:1fr .7fr;gap:7vw;padding:110px 7vw;background:var(--paper);color:var(--ink)}.offer>div>span{font:12px DM Mono;color:var(--hot)}.offer h2{font-size:clamp(40px,5vw,72px);line-height:.95;letter-spacing:-.05em}.offer p{font-size:18px;line-height:1.5;max-width:560px}.price{border:2px solid;padding:34px;box-shadow:12px 12px 0 var(--hot);display:flex;flex-direction:column;justify-content:center}.price small,.price i{font:11px DM Mono}.price strong{font-size:52px;margin:16px 0}.price .buy{background:var(--ink);color:white;margin:0 0 16px;width:100%;padding:14px}.buy{cursor:pointer}
 @media(max-width:760px){.offer{grid-template-columns:minmax(0,1fr);overflow:hidden}.price{width:calc(100% - 8px);min-width:0;box-shadow:8px 8px 0 var(--hot)}}
+
+.price .buy{display:block;text-align:center;text-decoration:none;border:0;font-weight:800}
