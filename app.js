@@ -13,4 +13,4 @@ $('#print').onclick=()=>{let rows=state.scenes.map((s,i)=>`${i+1}. ${s.text} —
 function slug(s){return s.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g,'').replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,'')||'proyecto'}function download(n,c,t){let a=document.createElement('a');a.href=URL.createObjectURL(new Blob([c],{type:t}));a.download=n;a.click();setTimeout(()=>URL.revokeObjectURL(a.href),1000)}
 $('#title').value=state.title;$('#goal').value=state.goal;$('#format').value=state.format;render();
 
-document.querySelector('.buy').onclick=()=>alert('Conecta aquí el enlace de checkout de Whop cuando el producto esté creado.');
+
